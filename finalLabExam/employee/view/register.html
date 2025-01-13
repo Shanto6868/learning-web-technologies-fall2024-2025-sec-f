@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Register</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="../controller/registercheck.php" method="POST">
+        <fieldset>
+            <legend><h1>Create an Account</h1></legend>
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required /> <br>
+
+            <label for="contact_no">Contact No:</label>
+            <input type="text" id="contact_no" name="contact_no" placeholder="Enter your contact no" required /> <br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required /> <br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required /> <br>
+
+            <input type="submit" name="register" value="register" />
+        </fieldset>
+    </form>
+</body>
+</html>
